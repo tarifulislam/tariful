@@ -1,0 +1,317 @@
+#headsection{
+	
+	background-color: mediumorchid;
+    display: block;
+    height: 145px;
+    overflow: hidden;
+    width: 1500px;
+}
+
+.logo{
+	 color: white;
+    float: left;
+    width: 600px;
+}
+.logo img{
+	 float: left;
+    margin-right: 25px;
+    margin-top: 20px;
+    padding-left: 20px;
+    width: 100px;
+}
+
+.logo h2{
+	display: block;
+    font-size: 54px;
+    margin-top: 25px;
+    text-shadow: 4px 2px 2px #666;
+}
+
+.sociall{
+	float: right;
+    margin-top: 79px;
+    width: 262px;
+}
+.sociall img{
+	width: 47px;
+	margin-right: 11px;
+}
+
+
+
+
+#navsection{
+	height: 80px;
+	width: 1500px;
+	background-color: #f3cf6c;
+	overflow: hidden;
+
+}
+
+#navsection ul{
+	list-style: none;
+
+	
+}
+
+
+#navsection ul li{
+	display: block;
+	float: left;
+	;
+	
+	 }
+
+#navsection ul li a{
+	font-size:40px;
+	font-weight: bold;
+	text-decoration: none;
+
+	padding: 0px 5PX;
+	background-color: orange;
+	display: block;
+	margin: 5px;
+	border: 1px solid white;
+	border-radius: 5px;
+
+
+	
+}
+#navsection ul li a:hover{
+	background-color: #D5D5D5;
+
+	border-bottom: 2px solid;
+
+	
+}
+
+.slider img{
+	overflow: hidden;
+	box-shadow: -2px 3px 12px #666;
+
+
+
+
+}
+
+
+
+
+#containsection{
+	height: 600px;
+	width: 1500px;
+	background-color: palegoldenrod;
+	overflow: hidden;
+	margin-top: 10px;
+	 border: 1px solid red;
+	 margin-bottom: -20px;
+}
+
+
+#maincontain{
+	height: 550px;
+	width: 1000px;
+	background-color:#A88475;
+	margin-top: 20px;
+	margin-left: 40px;
+	float: left;
+	overflow: hidden;
+	border: 1px solid white;
+}
+
+.about{}
+.about img{
+	    background: white none repeat scroll 0 0;
+    border: 1px solid red;
+    float: left;
+    height: 260px;
+    margin-left: 5px;
+    margin-right: 5px;
+    padding: 5px;
+    width: 400px;
+
+ 
+  }
+.about p{
+	color: pink;
+    font-size: 16px;
+    line-height: 23px;
+    margin-bottom: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+    text-align: justify;
+}
+
+table,td{
+	color:white;
+	margin-left: 10px;
+}
+
+input[type="text"],input[type="email"],input[type="password"]{
+	  border: 1px solid red;
+    margin-bottom: 6px;
+    padding: 6px;
+    width: 400PX;
+}
+
+textarea{width: 300px;
+	padding:5px;
+	height: 110px;
+	margin-bottom: 10px;
+	border:1px solid red;
+}
+
+input[type="submit"]{
+	background: midnightblue none repeat scroll 0 0;
+    border: 1px solid powderblue;
+    border-radius: 8px;
+    color: white;
+    font-size: 18px;
+    padding: 3px 10px;
+    cursor: pointer;
+}
+
+
+
+.main1 h2,.about h2,.contract h2{
+	border-bottom: 2px solid burlywood;
+    
+    margin-bottom: 10px;
+    padding: 10px;
+    color: white;
+
+}
+.main1 img{
+	background: white none repeat scroll 0 0;
+    border: 1px solid;
+    float: left;
+    margin-right: 10px;
+    padding: 5px;
+    width: 110px;
+    margin-left: 10px;
+}
+.main1 p{
+	  color: wheat;
+    margin-right: 10px;
+    text-align: justify;
+    margin-left: 10px;
+}
+.readmore{
+	float: right;
+	display: block;
+
+
+
+}
+.readmore a{
+	background: white none repeat scroll 0 0;
+    border: 1px solid red;
+    display: block;
+    font-size: 16px;
+    margin-right: 10px;
+    padding: 5px 10px;
+    text-decoration: none;
+    border-radius: 5px;
+}
+.readmore a:hover{
+	background:yellow;
+    color:red;
+}
+
+
+
+#sidebar{
+	height: 550px;
+	width: 400px;
+	background-color: #a88475;
+	margin-top: 20px;
+	margin-left: 25px;
+	float: left;
+	overflow: hidden;
+	border: 1px solid white;
+}
+
+.side1{
+
+	
+
+    
+
+
+
+}
+.side2{
+	
+	color: white;
+	margin: 10px;
+	text-align: center;
+	background-color: palevioletred;
+	border-bottom:2px solid;
+	overflow: hidden;
+}
+.sidebar1 ul{padding: 0; margin:0; list-style: none;}
+.sidebar1 ul li{
+	
+	
+    border-bottom: 1px dashed pink;
+    font-size: 20px;
+    margin-left: 10px;
+    margin-right: 10px;
+    padding: 3px 7px;
+}
+
+
+.sidebar1 ul li:last-child{border-bottom: 0px dashed red;}
+.sidebar1 ul li a{
+ 	text-decoration: none; 
+ 	color: turquoise;
+}
+
+.sidebar1 ul li a:hover{
+ 	text-decoration: none; 
+ 	color: red;
+}
+
+
+
+
+#footersection{
+	height:  85px;
+	width: 1500px;
+	background-color: midnightblue;
+	overflow: hidden;
+	text-align: center;
+
+}
+.footermenu{ overflow: hidden; }
+.footermenu ul{
+	padding: 0;
+	 margin:0; 
+	 list-style: none; 
+	 text-align: center;
+	 overflow: hidden;
+	 margin: 10px 0 0;
+}
+.footermenu ul li{
+	display: inline-block;
+	margin-right: 10px;
+
+	
+
+
+}
+.footermenu ul li a{color: thistle;
+	font-size: 25px;
+	}
+
+#footersection p{
+	 color: bisque;
+}
+
+
+
+
+
+
+
+
